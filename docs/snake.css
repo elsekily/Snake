@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+
+.btn{
+    border: none;
+    color: white;
+    width: 10vh;
+    height: 5vh;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5vh;
+}
+
+
+.btn-stop{
+    background-color: #a72e2e;
+}
+
+.btn-stop:hover{
+    background-color: #751504;
+}
+.btn-cont{
+    background-color: #4CAF50;
+}
+.btn-cont:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+
+.btn-restart{
+    background-color: #292828;
+    display: none;
+}
+.btn-restart:hover{
+    background-color: #474343;
+}
